@@ -13,8 +13,6 @@ public class PlusOne {
         int result[] = new int [arr.length+1];
         result[0] = 1;
     
-
-
         return result;
     }
     public static void main(String[] args) {
@@ -26,3 +24,4 @@ public class PlusOne {
         }
     }
 }
+
