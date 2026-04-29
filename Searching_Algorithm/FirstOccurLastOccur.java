@@ -53,8 +53,6 @@ public class FirstOccurLastOccur {
         int target = 3;
         System.out.println(" the first occurance of element is " + firstOccur(arr, target));
         System.out.println(" the last occurance of element is " + lasttOccur(arr, target));
-
-
     }
     
 }
