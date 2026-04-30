@@ -1,5 +1,4 @@
 
-
 public class Kaprekar6174 {
 
     public static void main(String[] args) {
@@ -40,12 +39,7 @@ public class Kaprekar6174 {
             result = des -asc;
             System.out.println(asc +" - "+ des+"-> "+result);
             num = result;
-
-
         }
         System.out.println("the constant reached : "+ result);
-
-
-
     }
 }
