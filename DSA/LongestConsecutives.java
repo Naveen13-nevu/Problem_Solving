@@ -35,7 +35,5 @@ public class LongestConsecutives {
         int arr[] = {100,1,2,200,3,4};
         int result = longest(arr);
         System.out.println(result);
-
-
     }
 }
