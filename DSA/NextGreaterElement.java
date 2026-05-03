@@ -1,0 +1,37 @@
+import java.util.Stack;
+
+public class NextGreaterElement {
+    
+    public static int [] nextGreat(int [] arr){
+
+        Stack<Integer> stack = new Stack<>();
+        int n = arr.length;
+        int result[] = new int[n];
+
+        for(int i =n-1;i>=0;i--){
+            while(!stack.isEmpty() && stack.peek() <= arr[i]){
+                stack.pop();
+            }
+            if(stack.isEmpty()){
+                result[i] = -1;
+            }
+            else{
+                result[i] = stack.peek();
+            }
+            stack.push(arr[i]);
+        }
+
+        return result;
+    }
+
+    public static void main(String[] args) {
+
+        int arr[] = {1,2,3,4,5};
+        int result[] = nextGreat(arr);
+        for(int n: result){
+
+            System.out.print(n+" -> ");
+        }
+        
+    }
+}
