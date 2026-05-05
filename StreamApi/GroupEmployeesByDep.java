@@ -53,6 +53,7 @@ public class GroupEmployeesByDep {
             new Employee("Raj", "Software developer", 70000)
         );
         
+        //Group by department 
         Map<String, List<Employee>> grouped = list.stream()
         .collect(Collectors.groupingBy(Employee::getDepartment));
         System.out.println(grouped);
