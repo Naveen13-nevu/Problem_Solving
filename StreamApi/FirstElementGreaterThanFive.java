@@ -12,7 +12,6 @@ public class FirstElementGreaterThanFive {
 
         result.ifPresent(System.out::println);
 
-
     }
 
 }

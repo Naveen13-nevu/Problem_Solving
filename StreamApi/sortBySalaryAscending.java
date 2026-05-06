@@ -2,11 +2,7 @@
 import java.util.*;
 import java.util.stream.Collectors;
 
-public class sortBySalaryAscending {
-
-    public static void main(String[] args) {
-        
-        class Employee{
+ class Employee{
             String name;
             double salary;
 
@@ -16,6 +12,10 @@ public class sortBySalaryAscending {
                 this.salary = salary;
             }
         }
+
+public class sortBySalaryAscending {
+
+    public static void main(String[] args) {
 
         List<Employee> employees =  Arrays.asList(
          new Employee("naveen", 10000),
@@ -31,6 +31,6 @@ public class sortBySalaryAscending {
     System.out.println(e.name + " = " + e.salary));
     }
 
-    }
+}
 
 
