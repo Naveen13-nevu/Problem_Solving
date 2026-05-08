@@ -11,10 +11,10 @@ public class SecondLargest {
                 secondLargest = firstLargest;
                 firstLargest = arr[i];
             }
-            else{
-                if(arr[i] > secondLargest && arr[i] != firstLargest){
+            else if(arr[i] > secondLargest && arr[i] != firstLargest){
+                
                     secondLargest = arr[i];
-                }
+                
             }
         }
         System.out.println(secondLargest);
