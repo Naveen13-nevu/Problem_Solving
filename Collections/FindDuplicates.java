@@ -1,9 +1,6 @@
 
 import java.util.HashSet;
 
-
-
-
 public class FindDuplicates {
     
     public static void dup(int [] arr){

@@ -15,12 +15,12 @@ public class Kaprekar6174 {
                 temp = temp/10;
             }
 
-            for(int i=0;i<4;i++){
-                for(int j=i+1;j<4;j++){
-                    if(digits[i]>digits[j]){
-                        int swap = digits[i];
-                        digits[i] = digits[j];
-                        digits[j] = swap;
+            for(int i=0;i<4-1;i++){
+                for(int j=0;j<4-i-1;j++){
+                    if(digits[j]>digits[j+1]){
+                        int swap = digits[j];
+                        digits[j] = digits[j+1];
+                        digits[j+1] = swap;
                     }
                 }
             }
