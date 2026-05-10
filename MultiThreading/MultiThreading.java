@@ -35,6 +35,8 @@ public class MultiThreading {
         Bag b2 = new Bag();
         b1.start();
         b1.join();
-        b2.start();  
+        b2.start(); 
+        b2.join(); 
+        System.out.println("bye");
     }
 }
