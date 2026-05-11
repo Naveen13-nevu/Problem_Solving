@@ -1,11 +1,8 @@
 
 public class DeadLock {
 
-
     static Object lock1 = new Object();
     static Object lock2 = new Object();
-	
-	
 	
 	public static void main(String[] args) {
 
