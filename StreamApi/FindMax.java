@@ -14,8 +14,5 @@ public class FindMax {
 
         System.out.println(max.orElse(0));
 
-
-
-
     }
 }
