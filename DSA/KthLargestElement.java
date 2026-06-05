@@ -19,7 +19,7 @@ public class KthLargestElement {
     public static void main(String[] args) {
         
         int arr[] = {1,2,3,4,5};
-        int k = 2;
+        int k = 1;
         int result = Largest(arr,k);
         System.out.println(result);
         
