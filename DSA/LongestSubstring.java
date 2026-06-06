@@ -14,7 +14,6 @@ public class LongestSubstring {
                 }
                 isVisited[str.charAt(j)] = true;
                 currentLength++;
-
             }
             if(currentLength > Maxlength){
                 Maxlength = currentLength;
