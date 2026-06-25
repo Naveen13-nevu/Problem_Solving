@@ -9,5 +9,3 @@ class StringCount {
         System.out.println(str1.length());
 
     }
-    
-}

@@ -18,7 +18,6 @@ public class CheckAnagram {
                 return false;
             }
         }
-
         return true;
     }
 
