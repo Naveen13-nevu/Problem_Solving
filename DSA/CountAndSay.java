@@ -5,6 +5,7 @@ public class CountAndSay {
     String result ="1";
 
     for(int i=2;i<=n;i++){
+        
         StringBuilder next = new StringBuilder();
         int count = 1;
 
