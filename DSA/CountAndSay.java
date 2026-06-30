@@ -27,7 +27,6 @@ public class CountAndSay {
 
     return result;
   }
-
     public static void main(String[] args) {
         int i = 5;
         String s1 = count(i);
