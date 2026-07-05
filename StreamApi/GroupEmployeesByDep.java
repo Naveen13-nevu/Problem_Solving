@@ -38,6 +38,7 @@ public double getSalary(){
 @Override
 public String toString(){
     return name + " - " + salary+ " - "+ department ;
+    
 }
 }
 
