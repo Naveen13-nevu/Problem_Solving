@@ -24,11 +24,10 @@ public class sortBySalaryAscending {
         );
 
         List<Employee> sorted = employees.stream()
-        .sorted(Comparator.comparingDouble(e -> e.salary))
-        .collect(Collectors.toList());
+        .sorted(Comparator.comparingDouble((Employee e) -> e.salary))
+        .collect(Collectors.toList());       
 
-        sorted.forEach(e -> 
-    System.out.println(e.name + " = " + e.salary));
+        sorted.forEach(e -> System.out.println(e.name + " = " + e.salary));
     }
 
 }
