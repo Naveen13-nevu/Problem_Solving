@@ -39,7 +39,6 @@ public class MinNoOfPlatforms {
         }
         return maxPlatform;
     }
-    
     public static void main(String[] args) {
         
         int[] arr = {900, 940, 950, 1100, 1500, 1800};
@@ -47,7 +46,6 @@ public class MinNoOfPlatforms {
 
         int result = minPlatform(arr,dep);
         System.out.println(result);
-
 
     }
 }

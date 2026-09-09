@@ -16,7 +16,6 @@ public class FindDuplicates {
             else{
                 set.add(n);
             }
-
         }
         System.out.println(duplicates);
 
