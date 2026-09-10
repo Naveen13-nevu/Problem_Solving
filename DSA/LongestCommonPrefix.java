@@ -18,6 +18,5 @@ public class LongestCommonPrefix{
         String [] str = {"flower", "flaw", "float"};
         String result = LongestCom(str);
         System.out.println(result);
-
     }
 }
