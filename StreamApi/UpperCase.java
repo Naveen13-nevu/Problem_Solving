@@ -1,5 +1,4 @@
 import java.util.*;
-import java.util.stream.Collectors;
 
 public class UpperCase {
     
@@ -7,11 +6,15 @@ public class UpperCase {
         
         List<String> names = Arrays.asList("naveen","arun","gwen");
 
-        List<String> result = names.stream()
+        names.stream()
         .map(String::toUpperCase)
-        .collect(Collectors.toList());
+        .forEach(e-> System.out.println(e));
 
-        result.forEach(e -> System.out.println(e));
+        // List<String> result = names.stream()
+        // .map(String::toUpperCase)
+        // .collect(Collectors.toList());
+
+        // result.forEach(e -> System.out.println(e));
 
     }
 }
