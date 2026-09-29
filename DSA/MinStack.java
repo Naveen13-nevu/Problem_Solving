@@ -13,18 +13,13 @@ public class MinStack {
         }
     }
 
-    public void pop(){
+    public void pop() {
         int top = stack.peek();
-        while(!stack.isEmpty() && top == minStack.peek()){
+        if (top == minStack.peek()) {
             minStack.pop();
         }
         stack.pop();
     }
-
-    public int top(){
-        return stack.peek();
-    }
-
     public int getMin(){
         return minStack.peek();
     }
@@ -35,6 +30,7 @@ public class MinStack {
         min.push(5);
         min.push(3);
         min.push(2);
+        min.push(1);
         System.out.println("the minimum value is: " + min.getMin());
     }
 }
