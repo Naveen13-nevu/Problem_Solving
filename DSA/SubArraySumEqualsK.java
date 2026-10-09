@@ -11,7 +11,7 @@ public class SubArraySumEqualsK {
 
         map.put(0, 1);
 
-        for(int i=0;i<arr.length;i++){
+        for(int i=0;i<n;i++){
             sum = sum + arr[i];
             if(map.containsKey(sum - k)){
                 count = count + map.get(sum-k);
@@ -24,7 +24,7 @@ public class SubArraySumEqualsK {
     }
     public static void main(String[] args) {
         
-        int arr[]={1,1,4};
+        int arr[]={1,4,4,1,1};
         int k = 2;
         int result = sub(arr,k);
         System.out.println(result);
