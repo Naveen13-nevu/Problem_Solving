@@ -5,12 +5,13 @@ public class ArmstrongNumber {
 
         int n = 153;
         int original = n;
-        int numberOfDigits = String.valueOf(n).length();
-
-        int sum = String.valueOf(n).chars()
-                .map(c -> c - '0')
-                .map(digit -> (int) Math.pow(digit, numberOfDigits))
-                .sum();
+        int sum = 0;
+       
+        while(n>0){
+            int d = n%10;
+            sum = sum + d*d*d;
+            n = n/10;
+        }
 
         if(sum == original){
             System.out.println(original+" this is armstrong number");
