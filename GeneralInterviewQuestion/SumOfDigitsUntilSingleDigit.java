@@ -10,7 +10,6 @@ public class SumOfDigitsUntilSingleDigit {
                 n=n/10;
             }
             n = sum;
-
         }
 
         return n;
