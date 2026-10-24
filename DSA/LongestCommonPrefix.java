@@ -12,7 +12,7 @@ public class LongestCommonPrefix{
         }
         return str[0];
     }
-
+    
     public static void main(String[] args) {
         
         String [] str = {"flower", "flaw", "float"};
