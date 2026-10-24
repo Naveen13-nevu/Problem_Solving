@@ -27,7 +27,6 @@ public class LongestConsecutives {
             }
         }
 
-
         return Maxlength;
     }
     public static void main(String[] args) {
